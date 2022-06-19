@@ -7,5 +7,5 @@
 - データベース操作
 
 # その他
-## Go Verionは1.8.x
-## MacOSを前提としている
+- Go Verionは1.8.x
+- MacOSを前提としている
