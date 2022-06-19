@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"learning/Go/1-7/hello"
+	"learning/1-7/hello"
 	"strconv"
 	"strings"
 )
