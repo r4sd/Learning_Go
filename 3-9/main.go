@@ -21,11 +21,11 @@ func main() {
 }
 
 func rev(md *Mydata) {
-	od := (*md).Data //これをイメージして使いこなせるか
+	od := (*md).Data //mdのポインタにあるスライスのDataを指定している？
 	nd := []int{}
 	for i := len(od) - 1; i >= 0; i-- {
 		nd = append(nd, od[i])
-		fmt.Println("処理中", nd)
+		// fmt.Println("処理中", nd)
 	}
 	md.Data = nd
 }
