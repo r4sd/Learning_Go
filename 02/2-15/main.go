@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"learning/1-7/hello"
+	"learning/01/1-7/hello"
 	"strconv"
 	"strings"
 )
